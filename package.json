@@ -1,0 +1,32 @@
+{
+  "name": "wayout",
+  "version": "1.0.0",
+  "description": "Recruitement Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeInfinity07/wayout.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Zainulabadin Riaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeInfinity07/wayout/issues"
+  },
+  "homepage": "https://github.com/CodeInfinity07/wayout#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
